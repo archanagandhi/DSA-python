@@ -21,5 +21,5 @@
         
         This prints the 2nd element in the list " 2 "
         
-![sliceing](https://user-images.githubusercontent.com/74424757/120910471-d6732400-c69c-11eb-9c4b-4f66afa776d3.PNG) ![slice](https://user-images.githubusercontent.com/74424757/120910478-e854c700-c69c-11eb-9090-fa647c8d70f8.jpg)
+     <img src= "https://user-images.githubusercontent.com/74424757/120910471-d6732400-c69c-11eb-9c4b-4f66afa776d3.PNG" width="350px"> <img src="https://user-images.githubusercontent.com/74424757/120910478-e854c700-c69c-11eb-9090-fa647c8d70f8.jpg" width="350px">
 
