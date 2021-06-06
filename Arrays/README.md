@@ -12,7 +12,7 @@
         list2 = [ 1,2,"orange",2.5 ]  # mixed_list
         list3 = [ 1,[ 1.1,1.2,1.3 ],2,["three"] ]  # Nested_list
         
-## Accessing List Element
+## Accessing List Element - O( 1 )
 
 * Index starts with "0"
 
