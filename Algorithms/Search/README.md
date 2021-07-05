@@ -7,11 +7,11 @@
 
 Linear search also known as **Sequential search** is a very simple search algorithm. A sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
 
-### Big O Complexity
+### Complexity
 
 * Time Complexity
-   * ```Best Case - O(1)```  *element is found at the first index*
-   * ```Worst Case - O(n)``` _element is found at the last index or element_
+   * ```Worst Case(Big-O) - O(n)``` _element is found at the last index or element_
+   * ```Best Case(Big-Omega) - O(1)```  *element is found at the first index*
 * Space Complexity - ``` O(1) ```
 
 ## Binary Search
@@ -19,11 +19,11 @@ Linear search also known as **Sequential search** is a very simple search algori
 Binary search  also known as **half-interval search, logarithmic search, or binary chop** is a fast search algorithm. This search algorithm works on the principle of **divide and conquer**.
 Binary search looks for a item by comparing the middle most item of the collection. If a match occurs, then the index of item is returned. If the middle item is greater than the item, then the item is searched in the sub-array to the left of the middle item. Otherwise, the item is searched for in the sub-array to the right of the middle item. This process continues on the sub-array as well until the size of the subarray reduces to zero.
 
-### Big O Complexity
+### Complexity
 
 * Time Complexity
-   * ```Best Case - O(1)```  *element is found at the middle index*
-   * ```Worst Case - O(logn)```
+   * ```Worst Case(Big-O) - O(logn)```
+   * ```Best Case(Big-Omega) - O(1)```  *element is found at the middle index*
 * Space Complexity - ``` O(1) ```
 
 ## Linear Vs Binary
