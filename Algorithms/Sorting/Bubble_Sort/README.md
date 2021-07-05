@@ -7,7 +7,7 @@ At each iteration last most element is correctly sorted. This Repeats until no s
 <img src="https://user-images.githubusercontent.com/74424757/124428284-215e8500-dd8a-11eb-92bb-1e6b0892f4ff.gif" width="500px" height="200px">
 </p>
 
-### Complexity
+## Complexity
 
 * Time Complexity
    * ```Worst Case(Big-O) - O(n^2)```
