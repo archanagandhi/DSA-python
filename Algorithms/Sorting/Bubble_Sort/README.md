@@ -10,6 +10,8 @@ At each iteration last most element is correctly sorted. This Repeats until no s
 ## Complexity
 
 * Time Complexity
+ 
    * ```Worst Case(Big-O) - O(n^2)```
    * ```Best Case(Big-Omega) - O(n)```  *when the list is already sorted*
+   
 * Space Complexity - ``` O(1) ```
