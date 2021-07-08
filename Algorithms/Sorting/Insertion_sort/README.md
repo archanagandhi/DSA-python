@@ -1,28 +1,23 @@
-# Quick Sort
+# Insertion Sort
 
-Quick sort also known as **Partition-exchange sort** is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
+Insertion sort is a sorting algorithm that places an unsorted element at its suitable place in each iteration. Insertion sort works similarly as we sort cards in our hand in a card game.
 
-Two best partition methods are:
-* Hoare Partition Scheme
-* Lomuto Partition Scheme
+## Steps to Perform
 
-## Steps to perform:
-* Pick an element (mostly first or last) and name as Pivot.
-* Partitioning- the array elements are positioned that all the elements smaller than the pivot will be on the left side of the pivot and all the elements greater than the pivot will be on the right side of it.
-* And the pivot element will be at its final sorted position.
-* The elements to the left and right, may not be sorted.
-* Then we pick subarrays, elements on the left of pivot and elements on the right of pivot, and we perform partitioning on them by choosing a pivot in the subarrays.
+* The array spilled virtually in the two parts in the insertion sort - An unsorted part and sorted part.
+* The sorted part contains the first element of the array and other unsorted subpart contains the rest of the array. The first element in the unsorted array is compared to the sorted array so that we can place it into a proper sub-array.
+* It focuses on inserting the elements by moving all elements if the right-side value is smaller than the left side.
+* It will repeatedly happen until the all element is inserted at correct place.
 
 <p align ="center" >
-<img src="https://user-images.githubusercontent.com/74424757/124618372-5acfe700-de95-11eb-8d62-5936f9fdf943.gif" width="500px" height="200px">
+<img src="https://user-images.githubusercontent.com/74424757/124907039-56c2d700-e005-11eb-8b30-703adb1cf221.gif" width="500px" height="200px">
 </p>
 
 ## Complexity
 
 * Time Complexity
  
-   * ```Worst Case(Big-O) - O(n^2)``` *when the list is already sorted*
-   * ```Average Case(Big-Theta) - O(n logn)```
+   * ```Worst Case(Big-O) - О(n^2) comparisons and swaps)``` *when whole array is unsorted
+   * ```Best Case(Big-Omega) - O(n) comparisons, O(1) swaps``` *When array is sorted
 
-   
-* Space Complexity - ``` O(logn) ```
+* Space Complexity - ``` O(1) ```
