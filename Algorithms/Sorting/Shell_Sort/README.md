@@ -1,28 +1,17 @@
-# Quick Sort
+# Shell Sort
 
-Quick sort also known as **Partition-exchange sort** is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
-
-Two best partition methods are:
-* Hoare Partition Scheme
-* Lomuto Partition Scheme
-
-## Steps to perform:
-* Pick an element (mostly first or last) and name as Pivot.
-* Partitioning- the array elements are positioned that all the elements smaller than the pivot will be on the left side of the pivot and all the elements greater than the pivot will be on the right side of it.
-* And the pivot element will be at its final sorted position.
-* The elements to the left and right, may not be sorted.
-* Then we pick subarrays, elements on the left of pivot and elements on the right of pivot, and we perform partitioning on them by choosing a pivot in the subarrays.
+Shellsort is an optimization of insertion sort that allows the exchange of items that are far apart. The method starts by sorting pairs of elements far apart from each other, then progressively reducing the gap between elements to be compared. By starting with far apart elements, it can move some out-of-place elements into position faster than a simple nearest neighbor exchange.
 
 <p align ="center" >
-<img src="https://user-images.githubusercontent.com/74424757/124618372-5acfe700-de95-11eb-8d62-5936f9fdf943.gif" width="500px" height="200px">
+<img src="https://user-images.githubusercontent.com/74424757/125195757-b5da5300-e274-11eb-9f2d-91567db51a5f.jpg" width="400px" height="300px">
 </p>
 
 ## Complexity
 
 * Time Complexity
  
-   * ```Worst Case(Big-O) - O(n^2)``` *when the list is already sorted*
-   * ```Average Case(Big-Theta) - O(n logn)```
+   * ```Worst Case(Big-O) - O(n^2)```
+   * ```Best Case(Big-Omega) - O(n logn)```
 
    
-* Space Complexity - ``` O(logn) ```
+* Space Complexity - ``` O(n) ```
