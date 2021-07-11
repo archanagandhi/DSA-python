@@ -1,17 +1,18 @@
-# Bubble Sort
+# Merge Sort
 
-Bubble sort also known as **sinking sort** is a simple sorting algorithm. It is comparison-based algorithm in which each pair of adjacent elements is compared and the elements are swapped if they are not in order.
-At each iteration last most element is correctly sorted. This Repeats until no swaps are needed.
+Merge sort is one of the most efficient sorting which uses divide-and-conquer technique. The algorithm first moves from top to bottom, dividing the list into smaller and smaller parts until only the separate elements remain.
+
+From there, it moves back up, ensuring that the merging lists are sorted.
 
 <p align ="center" >
-<img src="https://user-images.githubusercontent.com/74424757/124428284-215e8500-dd8a-11eb-92bb-1e6b0892f4ff.gif" width="500px" height="200px">
+<img src="https://user-images.githubusercontent.com/74424757/125187573-dba03180-e24d-11eb-8dae-dbfd8e7ec01f.png">
 </p>
 
 ## Complexity
 
 * Time Complexity
  
-   * ```Worst Case(Big-O) - O(n^2)```
-   * ```Best Case(Big-Omega) - O(n)```  *when the list is already sorted*
+   * ```Worst Case(Big-O) - O(n logn)```
+   * ```Best Case(Big-Omega) - O(n)``` 
    
-* Space Complexity - ``` O(1) ```
+* Space Complexity - ``` O(n) ```
